@@ -84,7 +84,7 @@ char *encode(char* str, bool check){
 Direktori akan di encode mirror dengan bantuan variabel key yaitu abjad uppercase dan lowercase.
 
 #### Output
-
+![1af](https://user-images.githubusercontent.com/65794806/121807048-1631a100-cc85-11eb-973f-774e566d15d0.png)
 
 ### Cara Pengerjaan 1B
 
@@ -108,7 +108,7 @@ Pada proses rename, path awal dan path baru akan dicek, jika memenuhi syarat mak
 Proses selanjutnya akan sama dengan proses 1A.
 
 #### Output
-
+![1bf](https://user-images.githubusercontent.com/65794806/121807057-1e89dc00-cc85-11eb-8e19-5314e2869e27.png)
 
 ### Cara Pengerjaan 1C
 
@@ -171,7 +171,7 @@ char *decode(char* str, bool check){
 Selanjutnya akan dilakukan proses decode yang algoritmanya sama dengan encode karena mirror.
 
 #### Output
-
+![1cf](https://user-images.githubusercontent.com/65794806/121807066-277aad80-cc85-11eb-949e-966b5ccdb2ab.png)
 
 ### Cara Pengerjaan 1D
 
@@ -221,7 +221,7 @@ Pada fungsi, jika ada pemanggilan rename, maka akan masuk ke opsi 1 dengan menga
 
 
 #### Output
-
+![1df](https://user-images.githubusercontent.com/65794806/121807072-2d708e80-cc85-11eb-97de-cbe473e86aa3.png)
 
 ### Cara Pengerjaan 1E
 
@@ -251,7 +251,7 @@ Pada proses ini, dalam dari direktori akan di cek dan dibuat penamaan baru yang 
 
 
 #### Output
-
+![1ef](https://user-images.githubusercontent.com/65794806/121807079-35303300-cc85-11eb-8305-4a5287c97fe7.png)
 
 ### Kendala Selama Pengerjaan
 
@@ -268,6 +268,10 @@ Belum dapat diselesaikan.
 
 ## Soal 3
 Belum dapat diselesaikan.
+
+### Kendala Selama Pengerjaan
+
+1. Soal 3 dapat dikerjakan tuntas jika soal 2 telah selesai.
 
 ## Soal 4
 
@@ -286,7 +290,7 @@ Pada soal, *user* diminta untuk mencatat semua pemanggilan system kedalam log Si
 Log dibuat dan disimpan dengan `fopen` pada path home.
 
 #### Output
-
+![4a](https://user-images.githubusercontent.com/65794806/121807106-614bb400-cc85-11eb-89ef-e60e55ce3b90.png)
 
 ### Cara Pengerjaan 4B
 
@@ -322,6 +326,7 @@ void makeLogInfo(int opsi, char *txt, char* path, char* path2){
 Akan dibuat variabel untuk menyimpan kata "WARNING" dan "INFO" yang nantinya akan dimasukkan di log sebagai awalan tiap baris.
 
 #### Output
+![4b](https://user-images.githubusercontent.com/65794806/121807113-690b5880-cc85-11eb-9c0c-10a44a37fa41.png)
 
 
 ### Cara Pengerjaan 4C
@@ -355,7 +360,7 @@ static int xmp_unlink(const char *path){
 ```
 
 #### Output
-
+![4c](https://user-images.githubusercontent.com/65794806/121807121-6f99d000-cc85-11eb-9523-28d277dc41b7.png)
 
 ### Cara Pengerjaan 4D
 
@@ -388,7 +393,7 @@ static int xmp_rename(const char *from, const char *to){
 ```
 
 #### Output
-
+![4d](https://user-images.githubusercontent.com/65794806/121807127-76284780-cc85-11eb-9567-781519a572cd.png)
 
 ### Cara Pengerjaan 4E
 
@@ -435,9 +440,8 @@ void makeLogInfo(int opsi, char *txt, char* path, char* path2){
 
 Pada log Info, ada dua opsi yaitu 1 untuk system yang memproses satu path saja seperti create dan 2 untuk sytem yang memproses dua path seperti rename.
 
-
 #### Output
-
+![4e](https://user-images.githubusercontent.com/65794806/121807133-7c1e2880-cc85-11eb-9657-e222faa7d50d.png)
 
 ### Kendala Selama Pengerjaan
 
